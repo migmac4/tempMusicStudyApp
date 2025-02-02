@@ -26,12 +26,12 @@ class AuthService {
           clientId: Platform.isIOS 
               ? '852747139690-lrgjskva0mlmrfh08jka0au23a9kpt3m.apps.googleusercontent.com'
               : Platform.isAndroid
-                  ? '852747139690-80fatblnm4h3lcf419iibvsrgs6eud2c.apps.googleusercontent.com'
+                  ? null
                   : null,
           serverClientId: Platform.isIOS
               ? '852747139690-lkqp6kh53837q8a4sir4n5e6hss58c23.apps.googleusercontent.com'
               : Platform.isAndroid
-                  ? '852747139690-80fatblnm4h3lcf419iibvsrgs6eud2c.apps.googleusercontent.com'
+                  ? '852747139690-lkqp6kh53837q8a4sir4n5e6hss58c23.apps.googleusercontent.com'
                   : null,
           scopes: ['email', 'profile'],
         )
